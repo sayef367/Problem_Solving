@@ -1,6 +1,7 @@
 ## All problems are solved in the JavaScript programming language.
 1. problem1
 ```bash
+# swap value first and second then next two and more or last one not swap add on array list.
 input data in array like this [1,2,3,4,5]
 output [ 2, 1, 4, 3, 5 ]
 ```
@@ -9,4 +10,10 @@ output [ 2, 1, 4, 3, 5 ]
 # user inputs a string and returns an object with total match vowels and matching vowels.
 input ("Mir Md Sayeful Islam")
 output { totalMetchVowels: 6, metchVowels: [ 'i', 'a', 'e', 'u', 'I', 'a' ] }
+```
+3. problem3
+```bash
+# Sorting words by length in a sentence by return object Ascending and Descending order.
+input = "JavaScript a high level programming language."
+output = { asc: 'a high level language. JavaScript programming', des: 'programming JavaScript language. level high a' }
 ```
