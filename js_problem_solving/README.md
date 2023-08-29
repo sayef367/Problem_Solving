@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+5. problem5
+```bash
+# reverse words in a string.
+input "JavaScript is a client-side script."
+output "tpircSavaJ si a edis-tneilc .tpircs"
+```
 4. problem4
 ```bash
 # input same item name in array and return an object how many duplicates data in array.
