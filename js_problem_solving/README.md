@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+6. problem6
+```bash
+# Declare an array. Nest a couple of loops to compare the numbers with other numbers in the array and Print the matching elements if found.
+input [1, 2, 3, 4, 5, 1, 2, 6, 7, 6]
+output [ 1, 2, 6 ]
+```
 5. problem5
 ```bash
 # reverse words in a string.
