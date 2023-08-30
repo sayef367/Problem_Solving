@@ -1,6 +1,12 @@
 ## All problems are solved in the JavaScript programming language.
 
-6. problem6
+8. problem8
+```bash
+# reverse words in a string
+input like "I love JavaScrpt"
+output "I evol tprcSavaJ"
+```
+7. problem7
 ```bash
 # print heart logo
 output ❤️ 
