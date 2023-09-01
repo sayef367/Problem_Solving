@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+9. problem9
+```bash
+# Remove duplicate elements from JavaScript Array.
+input [1, 'sayef', 4 , 'sayef' , 10, 2 , 10];
+output [ 1, 3, 4, 10, 2 ]
+```
 8. problem8
 ```bash
 # reverse words in a string
