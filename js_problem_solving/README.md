@@ -1,9 +1,15 @@
 ## All problems are solved in the JavaScript programming language.
 
+10. problem10
+```bash
+# reverse words in a string
+input "Mir Md Sayeful Islam"
+output "riM dM lufeyaS malsI"
+```
 9. problem9
 ```bash
 # Remove duplicate elements from JavaScript Array.
-input [1, 'sayef', 4 , 'sayef' , 10, 2 , 10];
+input [1, 'sayef', 4 , 'sayef' , 10, 2 , 10]
 output [ 1, 3, 4, 10, 2 ]
 ```
 8. problem8
