@@ -1,5 +1,16 @@
 ## All problems are solved in the JavaScript programming language.
 
+11. problem11
+```bash
+# return a object ascending and descending order array (not change the main array), max value and min value.
+input [5, 10, 7, 9, 4, 15, 1]
+output { 
+  ascending: [1,  4,  5, 7, 9, 10, 15],
+  descending: [15, 10, 9, 7, 5,  4, 1],
+  min: 1,
+  max: 15
+}
+```
 10. problem10
 ```bash
 # reverse words in a string
