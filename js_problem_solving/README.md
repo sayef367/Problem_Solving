@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+15. problem15
+```bash
+# How would you find the second largest number in an array?
+input [2,12,3,55,6,43,31,9]
+output 43
+```
 14. problem14
 ```bash
 # Submissions	Leaderboard	Discussions	Editorial A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
