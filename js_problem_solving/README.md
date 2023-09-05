@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+13. problem13
+```bash
+# 
+input [1,2,3,4,3,2,1]
+output 4
+```
 12. problem12
 ```bash
 # Print two space-separated integers on one line: the minimum sum and the maximum sum of of elements.
