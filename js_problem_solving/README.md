@@ -1,8 +1,14 @@
 ## All problems are solved in the JavaScript programming language.
 
+14. problem14
+```bash
+# Submissions	Leaderboard	Discussions	Editorial A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
+input "We promptly judged antique ivory buckles for the prize"
+output "not pangram"
+```
 13. problem13
 ```bash
-# 
+# Given an array of integers, where all elements but one occur twice, find the unique element.
 input [1,2,3,4,3,2,1]
 output 4
 ```
