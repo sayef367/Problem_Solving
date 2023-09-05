@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+12. problem12
+```bash
+# Print two space-separated integers on one line: the minimum sum and the maximum sum of of elements.
+input input [7, 4, 2, 11, 9]
+output output 22 31
+```
 11. problem11
 ```bash
 # return a object ascending and descending order array (not change the main array), max value and min value.
