@@ -1,5 +1,12 @@
 ## All problems are solved in the JavaScript programming language.
 
+16. problem16
+```bash
+# The left-to-right diagonal 11 + 5 - 12 = 4. The right to left diagonal 4 + 5 + 10 = 19. Their absolute difference is |4 - 19| = 15.
+# Return the absolute difference between the sums of the matrix's two diagonals as a single integer
+input [ [ 11, 2, 4 ], [ 4, 5, 6 ], [ 10, 8, -12 ] ];
+output 15
+```
 15. problem15
 ```bash
 # How would you find the second largest number in an array?
