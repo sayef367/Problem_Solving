@@ -1,5 +1,13 @@
 ## All problems are solved in the JavaScript programming language.
 
+18. problem18
+```bash
+# There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.
+input
+string = ['def', 'de', 'fgh', 'sdf', 'sdfs', 'de']
+querie = ['de', 'lmn', 'fgh', 'sdfs']
+output [ 2, 0, 1, 1 ]
+```
 17. problem17
 ```bash
 # Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
