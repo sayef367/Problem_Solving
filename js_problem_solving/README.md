@@ -1,5 +1,13 @@
 ## All problems are solved in the JavaScript programming language.
 
+19. problem19
+```bash
+# input sequence data and first remove sequence duplicate data then match array data. If all sequence data match the array then return true or false.
+input 
+array [5, 1, 22, 25, 6, -1, 8]
+sequence [5, 1, 22, 22, 25, 6, -1, 8]
+output true
+```
 18. problem18
 ```bash
 # There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.

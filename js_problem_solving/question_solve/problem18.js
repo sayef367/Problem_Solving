@@ -8,7 +8,7 @@ const string = ['def', 'de', 'fgh', 'sdf', 'sdfs', 'de'];
 const querie = ['de', 'lmn', 'fgh', 'sdfs'];
 
 function matchingStrings(strings, queries) {
-  const stringArr = [];
+  const stringArr = {};
   const querieArr = Array(queries.length);
 
   strings.forEach(str => {
