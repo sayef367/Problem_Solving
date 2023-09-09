@@ -2,3 +2,8 @@
 ```bash
 js_problem_solving
 ```
+
+## Introduction to Object Oriented Programming in JavaScript on this folder oop_in_js.
+```bash
+oop_in_js
+```
