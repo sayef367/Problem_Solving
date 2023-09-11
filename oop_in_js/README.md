@@ -3,7 +3,7 @@
 - Four fundamental concepts of OOP Encapsulation, Abstraction, Inheritance, Polymorphism.
 
 1. Objects
-- In JavaScript, everything is an object or can be represented as one. Objects are collections of key-value pairs, where keys are strings (or symbols) and values can be any data type, including functions. You can create objects using object literals or constructor functions.
+In JavaScript, everything is an object or can be represented as one. Objects are collections of key-value pairs, where keys are strings (or symbols) and values can be any data type, including functions. You can create objects using object literals or constructor functions.
 ```bash
 const Employee = {
   name: 'Sayeful',
@@ -13,7 +13,7 @@ console.log(Employee.name); //return Sayeful
 ```
 
 2. Classes
-- JavaScript introduced class syntax in ECMAScript 6 (ES6) to provide a more structured way to define objects and their behavior. Classes act as blueprints for creating objects.
+JavaScript introduced class syntax in ECMAScript 6 (ES6) to provide a more structured way to define objects and their behavior. Classes act as blueprints for creating objects.
 ```bash
 class Employee {
   constructor(name, year) {
@@ -30,7 +30,7 @@ console.log(sayef.age()) //return 29
 ```
 
 3. Encapsulation 
-- You can achieve encapsulation by using private and public fields and methods, although JavaScript does not have built-in access modifiers. Private fields and methods can be indicated by prefixing them with an hash '#' but they are not truly private.
+You can achieve encapsulation by using private and public fields and methods, although JavaScript does not have built-in access modifiers. Private fields and methods can be indicated by prefixing them with an hash '#' but they are not truly private.
 ```bash
 class Counter {
   #value = 0;
@@ -47,4 +47,27 @@ class Counter {
     this.#increment();
   };
 };
+```
+
+4. Inheritance
+JavaScript supports inheritance through prototype chains. You can use the extends keyword to create subclasses and inherit properties and methods from a parent class.
+```bash
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  };
+  present() {
+    return 'I have a ' + this.carname;
+  };
+};
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  };
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  };
+};
+let myCar = new Model("Ford", "Mustang");
 ```
