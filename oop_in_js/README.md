@@ -2,7 +2,7 @@
 - JavaScript is prototype-based procedural language, which means it supports both functional and object-oriented programming.
 - Four fundamental concepts of OOP Encapsulation, Abstraction, Inheritance, Polymorphism.
 
-1. Objects
+## 1. Objects
 In JavaScript, everything is an object or can be represented as one. Objects are collections of key-value pairs, where keys are strings (or symbols) and values can be any data type, including functions. You can create objects using object literals or constructor functions.
 ```bash
 const Employee = {
@@ -12,7 +12,7 @@ const Employee = {
 console.log(Employee.name); //return Sayeful
 ```
 
-2. Classes
+## 2. Classes
 JavaScript introduced class syntax in ECMAScript 6 (ES6) to provide a more structured way to define objects and their behavior. Classes act as blueprints for creating objects.
 ```bash
 class Employee {
@@ -29,7 +29,7 @@ const sayef = new Employee("Sayeful", 1994);
 console.log(sayef.age()) //return 29
 ```
 
-3. Encapsulation 
+## 3. Encapsulation 
 You can achieve encapsulation by using private and public fields and methods, although JavaScript does not have built-in access modifiers. Private fields and methods can be indicated by prefixing them with an hash '#' but they are not truly private.
 ```bash
 class Counter {
@@ -49,7 +49,7 @@ class Counter {
 };
 ```
 
-4. Inheritance
+## 4. Inheritance
 JavaScript supports inheritance through prototype chains. You can use the extends keyword to create subclasses and inherit properties and methods from a parent class.
 ```bash
 class Car {
@@ -70,4 +70,18 @@ class Model extends Car {
   };
 };
 let myCar = new Model("Ford", "Mustang");
+```
+
+## 5. Abstraction
+Objects only reveal internal mechanisms that are relevant for the use of other objects, hiding any unnecessary implementation code. The derived class can have its functionality extended. This concept can help developers more easily make additional changes or additions over time.
+```bash
+class Student {
+  constructor(bangla, english, math, computer, history) {};
+  getTotalMarks() {};
+  getResult(pass) {};
+  getDetails() {};
+};
+const sayef = new Student(70,50,60,80,50);
+sayef.getTotalMarks();
+sayef.getDetails();
 ```
