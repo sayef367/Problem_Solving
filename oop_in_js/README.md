@@ -85,3 +85,32 @@ const sayef = new Student(70,50,60,80,50);
 sayef.getTotalMarks();
 sayef.getDetails();
 ```
+## 6. Polymorphism
+JavaScript supports polymorphism naturally because it's a dynamically typed language. You can pass different objects to the same function and have them behave differently based on their types.
+```bash
+class Employee1 {
+  constructor(name, birthDay) {
+    this.name = name;
+    this.birthDay = birthDay;
+  };
+  getDetails() {
+    return `${this.name} DOB is ${this.birthDay}`;
+  };
+};
+class Employee2 extends Employee1 {
+  constructor(name, birthDay) {
+    super(name, birthDay);
+  };
+  getDetails() {
+    return `${this.birthDay} is ${this.name} DOM`;
+  };
+};
+
+const sayef = new Employee1("Sayef", "1994-09-27");
+const rakib = new Employee2("Rakib", "1995-09-20");
+
+console.log(sayef.getDetails()); //Sayef DOB is 1994-09-27
+console.log(rakib.getDetails()); //1995-09-20 is Rakib DOM
+```
+
+These are the fundamental concepts of object-oriented programming in JavaScript. Utilizing these principles, you can create well-structured and maintainable code in JavaScript, whether you are using ES5 or ES6+ syntax. Additionally, modern JavaScript frameworks and libraries often embrace OOP principles to help you build robust web applications.
