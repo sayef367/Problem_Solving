@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+22. problem22
+Given a 2N x 2N matrix of integers. You are allowed to reverse any row or column any number of times and in any order. The task is to calculate the maximum sum of the upper-left N X N submatrix i.e the sum of elements of the submatrix from (0, 0) to (N – 1, N – 1).
+```bash
+input input [[112, 42, 83, 119], [56, 125, 56, 49], [15, 78, 101, 43], [62, 98, 114, 108]]
+output output 414
+```
 21. problem21
 The median of a list of numbers is essentially its middle element after sorting. The same number of elements occur after it as before. Given a list of numbers with an odd number of elements, find the median?
 The sorted array arr = [1, 2, 3, 4, 5]. The middle element and the median is 3.
