@@ -14,8 +14,8 @@ function flippingMatrix(matrix) {
       let row2 = lenR - row1 - 1;
       let col2 = lenC - col1 - 1;
       sum += Math.max(
-        Math.max(matrix[row1][col1], matrix[row1][col2]), 
-        Math.max(matrix[row2][col1], matrix[row2][col2])
+        matrix[row1][col1], matrix[row1][col2], 
+        matrix[row2][col1], matrix[row2][col2]
       );
     };
   };
