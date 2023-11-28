@@ -1,12 +1,22 @@
 ## All problems are solved in the JavaScript programming language.
 
+24. problem24
+- You will be given a list of integers, arr, and a single integer k. You must create an array of length k from elements of arr such that its unfairness is minimized. Call that array arr. Unfairness of an array is calculated as
+- Unfairness = max(arr) — min(arr)
+Where:
+- max denotes the largest integer in arr
+- min denotes the smallest integer in arr
+```bash
+input [2,8,2,4,4,1] , k = 4
+output 2
+```
 23. problem23
 - There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 ar = [1,2,1,2,1,3,2];
 There is one pair of color 1 and one of color 2. There are three odd socks left, one of each color. The number of pairs is 2.
 ```bash
-input input [1,2,1,2,1,3,2]
-output output 2
+input [1,2,1,2,1,3,2]
+output 2
 ```
 22. problem22
 - Given a 2N x 2N matrix of integers. You are allowed to reverse any row or column any number of times and in any order. The task is to calculate the maximum sum of the upper-left N X N submatrix i.e the sum of elements of the submatrix from (0, 0) to (N – 1, N – 1).
