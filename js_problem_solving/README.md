@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+25. problem25
+- Julius Caesar protected his confidential information by encrypting it using a cipher. Caesar's cipher shifts each letter by a number of letters. If the shift takes you past the end of the alphabet, just rotate back to the front of the alphabet. In the case of a rotation by 3, w, x, y and z would map to z, a, b and c.
+```bash
+input Always-Look-on-the-Bright-Side-of-Life, shift = 5
+output Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj
+```
 24. problem24
 - You will be given a list of integers, arr, and a single integer k. You must create an array of length k from elements of arr such that its unfairness is minimized. Call that array arr. Unfairness of an array is calculated as
 - Unfairness = max(arr) — min(arr)
