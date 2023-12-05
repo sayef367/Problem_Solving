@@ -1,5 +1,24 @@
 ## All problems are solved in the JavaScript programming language.
 
+26. problem26
+- Declare a 2-dimensional array, arr, of n empty arrays. All arrays are zero indexed.
+- Declare an integer, lastAnswer, and initialize it to 0.
+- Declare an answers array.
+- Parse through each query. The format of each query will be [type, x, y]. There are 2 types of queries, given as an array of strings for you to parse, treat them according to their type:
+1. Query: 1 x y
+  Let idx = ( (x ^ lastAnswer) % n ).
+  Append the integer y to arr[idx].
+2. Query: 2 x y
+  Let idx = ( (x ^ lastAnswer) % n ).
+  Assign the value arr[idx][y % size(arr[idx])] to lastAnswer.
+  Store the new value of lastAnswer to answers array.
+- Return answers array.
+- Note: ^ is the bitwise XOR operation. % is the modulo operator.
+Finally, size(arr[idx]) is the number of elements in arr[idx].
+```bash
+input nNo = 2, queriesArr = [[1,0,5], [1,1,7],[1,0,3],[2,1,0],[2,1,1]]
+output 7, 3
+```
 25. problem25
 - Julius Caesar protected his confidential information by encrypting it using a cipher. Caesar's cipher shifts each letter by a number of letters. If the shift takes you past the end of the alphabet, just rotate back to the front of the alphabet. In the case of a rotation by 3, w, x, y and z would map to z, a, b and c.
 ```bash
