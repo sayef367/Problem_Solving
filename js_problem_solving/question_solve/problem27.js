@@ -6,14 +6,14 @@
 const gridArr = ['abc', 'ade', 'efg'];
 
 function gridChallenge(grid) {
-  let Grid = grid.map(item => {
-    let temp = item.split('').sort();
+  const Grid = grid.map(item => {
+    const temp = item.split('').sort();
     return temp;
   });
   
-  let column = [];
-  let gridLength = Grid.length;
-  let gridLength1 = Grid[0].length;
+  const column = [];
+  const gridLength = Grid.length;
+  const gridLength1 = Grid[0].length;
   for(let i = 0; i<gridLength1; i++){
     let temp = '';
     for(let j = 0; j<gridLength; j++){
@@ -22,8 +22,8 @@ function gridChallenge(grid) {
     column.push(temp);
   };
   
-  let filterColumn = column.filter(item => {
-    let temp = item.split('').sort().join('');
+  const filterColumn = column.filter(item => {
+    const temp = item.split('').sort().join('');
     return item === temp;
   });
 
