@@ -1,5 +1,19 @@
 ## All problems are solved in the JavaScript programming language.
 
+31. problem31
+- Given an integer n, we need to find the super digit of the integer.
+super_digit(9875) 9+8+7+5 = 29 
+super_digit(29)   2 + 9 = 11
+super_digit(11)   1 + 1 = 2
+super_digit(2)    = 2  
+- Complete the function superDigit in the editor below. It must return the calculated super digit as an integer.
+- superDigit has the following parameter(s):
+string n: a string representation of an integer
+int k: the times to concatenate n to make p
+```bash
+input 9875
+output 8
+```
 30. problem30
 - Watson gives Sherlock an array of integers. His challenge is to find an element of the array such that the sum of all elements to the left is equal to the sum of all elements to the right. For instance, given the array arr=[5,6,8,11], 8 is between two subarrays that sum to 11. If your starting array is[1], that element satisfies the rule as left and right sum to 0.
 - You will be given arrays of integers and must determine whether there is an element that meets the criterion. If there is, return YES. Otherwise, return NO.
