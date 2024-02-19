@@ -11,7 +11,8 @@ class ParkingLot {
     if (this.slots.every((slot) => slot !== null)) {
       return false;
     };
-    for (let i = 0; i <= this.slots.length; i++) {
+    let slotLength = this.slots.length;
+    for (let i = 0; i <= slotLength; i++) {
       const slot = this.slots[i];
       if (slot === null) {
         this.slots[i] = carId;
@@ -30,7 +31,8 @@ class ParkingLot {
     if (this.slots.every((slot) => slot !== carId)) {
       return false;
     };
-    for (let i = 0; i <= this.slots.length; i++) {
+    let slotLength = this.slots.length;
+    for (let i = 0; i <= slotLength; i++) {
       const slot = this.slots[i];
       if (slot === carId) {
         this.slots[i] = null;
