@@ -1,5 +1,11 @@
 ## All problems are solved in the JavaScript programming language.
 
+33. problem33
+- write a javascript program to return count of each character in a string.
+```bash
+input 'i am a programmer'
+output { i: 1, a: 3, m: 3, p: 1, r: 3, o: 1, g: 1, e: 1 }
+```
 32. problem32
 - Louise and Richard have developed a numbers game. They pick a number (1 ≤ n < 264) and check to see if it is a power of 2. If it is, they divide it by 2. If not, they reduce it by the next lower number which is a power of 2. Whoever reduces the number to 1 wins the game. Louise always starts.
 - Given an initial value, determine who wins the game.
